@@ -62,7 +62,7 @@ const ToggleMic = () => {
 
 <template>
   <div class="app">
-    <button :class="`mic`" @click="ToggleMic">Record</button>
+    <button :class="`mic`" @click="ToggleMic">Запись</button>
     <div class="transcript" v-text="transcript"></div>
   </div>
 </template>
@@ -76,7 +76,7 @@ const ToggleMic = () => {
 }
 
 body {
-  background: #281936;
+  background: #1c1123;
   color: #FFF;
 }
 </style>
